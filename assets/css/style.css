@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+.container{
+    height: 40.6rem;
+    width: 100%;
+    background-image: url('../image/Folha\ de\ caderno.jpg')
+}
+
+.text-center{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.caixaImagem{
+    width: 100%;
+    margin-top: 1%;
+    height: 20rem;
+}
+
+.float-right{
+    text-align: right;
+    margin: 10px 100px 0 0 
+}
+
+#keyboard{
+    padding: 10px;
+    width: 80%;
+}
+
+.btn{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 400ms;  
+    cursor: pointer;
+    background-color: rgb(146, 232, 203);
+}
+
+.btn:hover{
+    scale: calc(1.2);
+    transition: 400ms;
+    background-color: rgb(119, 175, 236);
+}
+
+.btnRodape{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.btnReset,
+.btnAdd{
+    height: 30px;
+    width: 15rem;
+    font-size: 15px;
+    border-radius: 10px;
+    transition: 400ms;
+    cursor: pointer;
+    background-color: rgb(190, 146, 232);
+}
+
+.btnReset:hover{
+    scale: calc(1.2);
+    transition: 400ms;
+    background-color: rgb(162, 96, 224);
+}
+.btnAdd:hover{
+    scale: calc(1.10); 
+    transition: 400ms; 
+    background-color: rgb(162, 96, 224);
+}
+
+.addWord{
+    margin-left: 0;
+    width: 16rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: rgba(190, 146, 232, 0.424);
+}
+.btnAdd{
+    margin-right: 1rem;
+}
+
+@media only screen and (max-width : 425px) {
+    .container{
+        height: 60rem;
+        width: 100%;
+        background-image: url('../image/Folha\ de\ caderno.jpg')
+    }
+
+    .btnRodape{
+        flex-direction: column;
+        margin: 0.5rem;
+    }
+    .addWord{
+        margin: 1rem auto;
+        padding: .5rem;
+    }
+    .btnAdd{
+        margin: auto;
+    }
+    .btn{
+        height: 3rem;
+        width:3rem;
+        margin: .1rem;
+        font-size: 1.1rem;
+        border-radius: .5rem;
+    }
+}

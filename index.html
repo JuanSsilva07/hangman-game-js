@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca - Alura</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main class="container">
+        <h1 class="text-center">Jogo da Forca</h1>
+        <div class="float-right">Tentativas erradas: <span id='mistakes'>0</span> de <span id='maxWrong'></span></div>
+        <div class="text-center">
+        <div class="caixaImagem">
+            <img id='hangmanPic' src="./assets/image/0.png" alt="">
+        </div>
+          
+          <p>Acerte a linguagem de programação:</p>
+          <p id="wordSpotlight">The word to be guessed goes here</p>
+          <div id="keyboard"></div>
+          <div class="btnRodape">
+            <button type="button" class="btnAdd" onclick="addWord()">Adicionar palavra</button>
+            <input type="text" class="addWord" id="addNewWord" placeholder="Digite aqui">
+            <button type="button" class="btnReset" onClick="reset()">Restart</button>
+         </div>
+        </div> 
+    </main>
+
+
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
