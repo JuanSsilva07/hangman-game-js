@@ -1,6 +1,7 @@
 # hangman-game-js
 
 EN/
+
 The project was a challenge that was part of the web developer course provided by Alura in Partnership with Oracle. It is a hangman game made entirely in pure JavaScript and without the use of css frameworks either, just HTML, CSS and JS, the triad of web development.  
 
 In the game you can click on the letter you want to choose, there are animations with hover on the screen in each letter and each button, there is an error counter and each letter you get right, you can see the word forming.
