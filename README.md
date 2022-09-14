@@ -17,3 +17,14 @@ No jogo você consegue clicar na letra que deseja escolher, há animações com 
 As palavras a serem advinhadas são linguagens de programação, o jogo já se inicia com um total de 14 linguagens inseridas na array, no entanto, é possível fazer a adição de mais linguagens e armazena-las no array.
 
 ![hangman-game](https://user-images.githubusercontent.com/70165034/190170086-5454e32d-9b7d-48fd-a05c-c446cae45810.png)
+
+
+EN/
+
+The project was recognized by Alura and Oracle as completed and I was given the badge below as an achievement.
+
+PT-BR/
+
+O projeto foi reconhecido por Alura e Oracle como concluído e me foi dado a badge abaixo como uma conquista.
+
+![badge desafio2](https://user-images.githubusercontent.com/70165034/190185804-3baf07e7-9800-4592-b7ed-7f6752049f15.png)
